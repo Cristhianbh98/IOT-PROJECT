@@ -1,0 +1,24 @@
+{
+  "name": "iot-proyect",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "standard": "17.1.0",
+    "vite": "4.4.3"
+  },
+  "dependencies": {
+    "jscharting": "3.4.0",
+    "mqtt": "4.2.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }  
+}
