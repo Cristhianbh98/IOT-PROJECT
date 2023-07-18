@@ -12,5 +12,5 @@ while True:
   h = random.randint(40, 60)
   msg = "{\"t\": " + str(t) + ", \"h\": " + str(h) + "}"
   client.publish("IOT/TEMHUM", msg)
-  print("Just published " + str(msg) + " to topic TIE/TEMHUM")
+  print("Just published " + str(msg) + " to topic IOT/TEMHUM")
   time.sleep(5)
