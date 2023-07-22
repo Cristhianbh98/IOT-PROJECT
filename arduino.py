@@ -9,7 +9,7 @@ client.connect(MQTT_BROKER, port = 1883)
 
 while True:
   t = random.randint(15, 30)
-  h = random.randint(40, 60)
+  h = random.randint(0, 100)
   msg = "{\"t\": " + str(t) + ", \"h\": " + str(h) + "}"
   client.publish("IOT/TEMHUM", msg)
   print("Just published " + str(msg) + " to topic IOT/TEMHUM")
